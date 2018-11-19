@@ -1,0 +1,8 @@
+.chat{
+  background:green;
+  height:130px;
+  width:30%;
+  float:left;
+  /*规定两个并排的带边框的框：*/
+  box-sizing:border-box;
+}
