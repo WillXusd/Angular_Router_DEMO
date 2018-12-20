@@ -1,8 +1,10 @@
-<a [routerLink]="['/home']">index</a>
-<a [routerLink]="['/product',1]">detail</a>
-<input type="button" value="detail" (click)="toProductDetails()" />
-<!--不管主路由是什么路径，一旦点击就跳转到指定的主路由，primary-->
-<a [routerLink]="[{outlets:{primary:'home',aux:'chat'}}]">开始聊天</a>
-<a [routerLink]="[{outlets:{aux:null}}]">结束聊天</a>
+<div>
+  <a [routerLink]="['/home']">index</a>
+  <a [routerLink]="['/product',1]">detail</a>
+  <input type="button" value="detail" (click)="toProductDetails()" />
+  <!--不管主路由是什么路径，一旦点击就跳转到指定的主路由，primary-->
+  <a [routerLink]="[{outlets:{primary:'home',aux:'chat'}}]">开始聊天</a>
+  <a [routerLink]="[{outlets:{aux:null}}]">结束聊天</a>
+</div>
 <router-outlet></router-outlet>
 <router-outlet name="aux"></router-outlet>

@@ -3,8 +3,12 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\guard"
+    "\\src\\app\\chat",
+    "\\src\\app\\guard",
+    "\\src\\app\\home",
+    "\\src\\app\\product",
+    "\\src\\app\\product-desc"
   ],
-  "SelectedNode": "\\src\\app\\guard\\product.resolve.ts",
+  "SelectedNode": "\\src\\app\\guard\\login.guard.ts",
   "PreviewInSolutionExplorer": false
 }
